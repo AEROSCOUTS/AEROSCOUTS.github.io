@@ -19,6 +19,9 @@ paginate: true
 ---
 The first meeting was held on September 6, 2024 in the Electrical and Mechanical Building 436.
 
+image: >-
+https://img10.360buyimg.com/imgzone/jfs/t1/942/38/25279/82818/66e6f44aF5ffb2a86/e0733ae022abbc84.png
+
 ## Week 1
 
 Introduction
