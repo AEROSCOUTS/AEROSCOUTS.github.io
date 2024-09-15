@@ -1,130 +1,49 @@
 ---
-date: 2019-05-16 23:48:05
+date: 2024-09-15 8:00:00
 layout: post
-title: Welcome to the desert of the real
-subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+title: Welcome to AEROSCOUTS!
+subtitle: 'A website that saw how a water rescue drone was born.'
 description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
+  A website that saw how a water rescue drone was born.
 image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
+  https://img10.360buyimg.com/imgzone/jfs/t1/96317/33/49094/44086/66e6f423F57e7535b/bf1dab9c48542aca.png
 optimized_image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
+  https://img10.360buyimg.com/imgzone/jfs/t1/942/38/25279/82818/66e6f44aF5ffb2a86/e0733ae022abbc84.png
 category: blog
 tags:
-  - welcome
-  - blog
-author: mranderson
+  - Unmanned Aerial Vehicle
+  - Water rescue
+  - Drowning
+author: Siyu Yong
 paginate: true
 ---
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+The first meeting was held on September 6, 2024 in the Electrical and Mechanical Building 436.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+## Week 1
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+Introduction
 
-## Inline HTML elements
+Team members: Siyu Yong, Nan Zhang, Chengping Bi
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+Supervisor：Zhaogui Wang
 
-* **To bold text**, use `<strong>`.
-* *To italicize text*, use `<em>`.
-* Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-* Citations, like <cite>&mdash; Thomas A. Anderson</cite>, should use `<cite>`.
-* <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-* Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+Project name：AEROSCOUTS
 
-Most of these elements are styled by browsers with few modifications on our part.
+Slogan：Soaring High, Saving Lives.
 
-# Heading 1
+## Meeting content
+First of all, we had a discussion about the topic of the capstone design with our instructor. We combined the knowledge we learned with our past experience and decided that we wanted to build a drone with visual recognition.
 
-## Heading 2
+And then we had a discussion about our group name. After discussion, we decided on the group name “AeroScouts”. The name “AeroScouts” is a combination of two elements that are highly relevant to our project. “Aero” is derived from “aeronautics”, which reflects our focus on the field of aviation. Given that our project involves drones, which operate in the airspace, the term “aero” is a perfect fit. “Scouts” was chosen to symbolize our role as explorers and detectors. We are on a mission to discover new things, explore uncharted territories, and gather valuable information.”AeroScouts” represents our group’s identity as a team dedicated to using aviation technology, specifically drones, to act as scouts in the air. And we are committed to exploring, detecting, and providing valuable information through the power of our drones.
 
-### Heading 3
+And our slogan is:“Soaring High, Saving Lives.” We are longing to contribute to creating pioneers in aerial rescue, dedicated to protecting and serving. Our mission is to conduct non-stop patrols 24/7 and protect those at risk of drowning. Our instructor, Wang Zhaogui, is extremely satisfied with our topic selection and is eagerly anticipating our next progress.
 
-#### Heading 4
+## Project content introduction
+Drowning, as one of the most important causes of unintentional injury deaths worldwide, poses a serious threat to adolescents and children. According to statistics, there are about 370,000 people who lose their lives due to drowning every year, and this proportion is particularly prominent in China. In response to this serious problem, our team is developing a drone system specifically designed for water drowning rescue in order to effectively intervene and reduce the number of deaths and injuries in drowning accidents.
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+The underwater drowning rescue drone system is designed to quickly identify and locate drowning people in open water and deliver life-saving equipment in time. The core technologies of the system include advanced target detection and tracking algorithms YOLOv10 and DeepSort, which ensure efficient target acquisition and continuous tracking. SlowFast video behavior analysis algorithm was integrated to realize the continuous analysis of the movement changes of people on the surface of the water, which significantly enhanced the ability of instant recognition of drowning behavior. Once the system has identified the location of the drowning person, it activates the built-in drop mechanism to automatically release the life buoy or other life-saving material, thereby automating the process from discovery to rescue.
 
---page-break--
+In terms of the control System, the UAV will be developed using the PX4 flight control firmware with the ROS (Robot Operating System) integration platform to ensure the stability and scalability of the system. To adapt to complex rescue environments, the system will employ the EGO-Planner quadcopter trajectory planning algorithm, which helps drones navigate safely and efficiently through dense obstacles or dynamically changing waters. In addition, the drone will be equipped with a variety of sensors, including depth cameras, inertial measurement units (IMU), GPS, to enhance its ability to perceive the environment and ensure accurate judgment and response in any situation.
 
-## Code
+We expect to complete the development of the entire system within a year and ensure that it can play a critical role in real-world rescue scenarios, while maintaining the reliability and functional integrity of the system.” Through the comprehensive application of this series of technologies, our water drowning rescue UAV system will greatly improve the intelligence level of rescue work, and show strong potential in practical application, providing a powerful technical support program for solving the global drowning rescue problem.
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-```js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image") ![placeholder](https://placehold.it/400x200 "Medium example image") ![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
