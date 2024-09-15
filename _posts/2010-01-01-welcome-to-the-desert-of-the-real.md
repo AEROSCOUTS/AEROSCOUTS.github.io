@@ -4,7 +4,7 @@ layout: post
 title: Welcome to AEROSCOUTS!
 subtitle: 'A website that saw how a water rescue drone was born.'
 description: >-
-  A website that saw how a water rescue drone was born.
+  The first meeting with the instructor.
 image: >-
   https://img10.360buyimg.com/imgzone/jfs/t1/96317/33/49094/44086/66e6f423F57e7535b/bf1dab9c48542aca.png
 optimized_image: >-
